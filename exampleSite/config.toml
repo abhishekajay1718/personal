@@ -1,5 +1,5 @@
-title = "Eddie Webb"
-baseURL = "https://example.com/"
+title = "Abhishek Ajay"
+baseURL = "https://abhishekajay1718.github.io/personal/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
@@ -8,11 +8,11 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Rollinsford, NH"
-email = "email@domain.com"
+address = "New York, NY"
+email = "abhishekajay1718@gmail.com"
 favicon = "/favicon.ico"
-firstName = "Eddie"
-lastName = "Webb"
+firstName = "Abhishek"
+lastName = "Ajay"
 phone = "1-555-555-1234"
 profileImage = "img/TechChat.png"
 showEducation = true
