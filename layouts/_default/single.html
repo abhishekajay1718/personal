@@ -1,8 +1,12 @@
-{{ define "main" }}
-<section class="resume-section p-3 p-lg-5 d-flex d-column" id="{{ replace .Title " " "-" }}">
-  <div class="my-auto">
-    <h1 class="mb-0"><span class="text-primary">{{ .Title }}</span></h1>
-    {{ .Content }}
-  </div>
-</section>
-{{ end }}
+{{ partial "header.html" . }}
+<div class="article-meta">
+<h1><span class="title">{{ .Title | markdownify }}</span></h1>
+{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+{{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+</div>
+
+<main>
+{{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
