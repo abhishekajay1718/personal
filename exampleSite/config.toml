@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://abhishekajay1718.github.io/personal/"
 languageCode = "en-us"
 title = "Abhishek Ajay's Personal Website"
 theme = "hugo-xmin"
